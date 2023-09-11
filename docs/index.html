@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme" type="text/css" />
 </head>
 <body>
+<script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 <div id="app"></div>
 <script>
     window.$docsify = {
@@ -19,6 +20,9 @@
         subMaxLevel: 2,
         auto2top: true,
         themeColor: '#f97316',
+        plugins: [
+            EditOnGithubPlugin.create('https://github.com/kilobyteno/docs.oppe.app/blob/main/docs/', null, 'Edit on GitHub'),
+        ]
     }
 </script>
 <!-- Docsify v4 -->
