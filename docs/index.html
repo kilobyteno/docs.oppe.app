@@ -20,6 +20,10 @@
         subMaxLevel: 2,
         auto2top: true,
         themeColor: '#f97316',
+        timeUpdater: {
+            text: ">Last updated: {docsify-updated}",
+            formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
+        },
         plugins: [
             EditOnGithubPlugin.create('https://github.com/kilobyteno/docs.oppe.app/blob/main/docs/', null, 'Edit on GitHub'),
         ]
@@ -28,5 +32,6 @@
 <!-- Docsify v4 -->
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
 </body>
 </html>
