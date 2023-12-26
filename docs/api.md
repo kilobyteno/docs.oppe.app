@@ -6,3 +6,7 @@ To create an API token, login and click your name in the top right corner, then 
 
 **Our suggestion:**
 > Create one token for each project or one token for each environment.
+
+## Authentication
+
+To authenticate your requests, you need to add the `Authorization` header to your request. The value of the header should be `Bearer {token}`. Replace `{token}` with your token.
